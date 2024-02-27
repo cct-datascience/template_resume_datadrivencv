@@ -1,7 +1,7 @@
 
 ## Purpose
 
-To be able to generate a resume using the `datadrivencv` approach without needing to install the [`datadrivencv` R package](https://github.com/cct-datascience/datadrivencv). 
+To be able to generate a resume using the `datadrivencv` approach without needing to install the [`datadrivencv`](https://github.com/nstrayer/datadrivencv) R package. 
 
 ## Instructions
 
