@@ -1,6 +1,6 @@
 ---
-title: "[name here]'s CV"
-author: [name here]
+title: "Your Name Here's CV"
+author: Your Name Here
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -45,11 +45,8 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
+<!-- Swap image with your preferred logo -->
+![logo](https://cran.r-project.org/Rlogo.svg){width=100%}
 
 
 ```{r}
@@ -92,7 +89,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-[name here] {#title}
+Your Name Here {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
